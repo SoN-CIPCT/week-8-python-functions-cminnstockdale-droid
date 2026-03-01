@@ -10,7 +10,7 @@
 def make_sandwich(*ingredients):
     #step 3 is to print a sandwich order summary at the beginning of the list of ingredients
     print("\n Sandwich Order Summary:")
-    
+    #loop through each ingredient that is passed into the function and print them one at a time
     for ingredient in ingredients:
         print(f"- {ingredient}")
 
@@ -19,7 +19,7 @@ def make_sandwich(*ingredients):
 # 4. Call the function twice with different numbers of arguments
 make_sandwich("turkey", "lettuce", "avocado", "mayo")
 
-make_sandwich("ham", "havarti", "mustard", "horseradish")
+make_sandwich("ham", "havarti", "horseradish")
 
 
 
